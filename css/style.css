@@ -1,0 +1,101 @@
+:root{
+    --dark-magenta: hsl(300, 43%, 22%);
+    --light-magenta: hsl(333, 80%, 67%);
+    --light-text: hsl(303, 10%, 53%);
+    --light-pink:hsl(300, 24%, 96%);
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'spartan', sans-serif;
+}
+.container{
+   
+    margin: 0 auto;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.header{
+    text-align: center;
+    padding: 100px 50px 30px;
+    color: var(--light-text);
+}
+.title{    
+    color: var(--dark-magenta);
+}
+.title_text{
+    font-weight: 500;
+}
+/* review con estrellas */
+.rated{
+    margin-bottom: 50px;
+   
+}
+.review{
+    background-color: var(--light-pink);
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.stars{
+    padding-top: 3px;
+}
+.stars img{
+    padding: 5px 2px;
+}
+.line p{
+    font-weight: 700;
+    color: var(--dark-magenta);
+    margin: 0;
+}
+/*tarjetas*/
+.card{
+    background-color:var(--dark-magenta);
+    padding: 25px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    min-height: 250px;
+}
+.buyer figure{
+    margin: 0;
+    padding-top: 2px;
+}
+.imagen{
+    border-radius: 50%;
+    width: 70%;
+
+}
+.buyer{
+    display: flex;
+    padding-top: 10px;
+   
+    
+}
+.buyer_header{
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.buyer_header h4{
+    color: var(--light-pink);
+    margin: 0;
+    line-height: 30px;
+    padding-top:7px ;
+    
+   
+}
+.buyer_header span{
+    color: var(--light-magenta);
+   
+    
+}
+.content p{
+    color: var(--light-pink);
+    font-size: 15px;
+    line-height: 27px;
+}

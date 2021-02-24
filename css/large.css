@@ -1,0 +1,45 @@
+
+.main{
+    display: flex;
+    
+}
+
+
+/* main */
+.header{
+    text-align: start;
+    width: 40%;
+   
+    margin-left: 50px;
+}
+.rated{
+    padding: 130px 50px 30px;
+    width: 60%;
+}
+.review{
+    display: flex;
+    justify-content: baseline;
+    width: 80%;
+}
+.line{
+    line-height: 38px;
+    padding-left: 35px ;
+}
+/* seccion revie del rated por cada uno*/
+.segundo{
+    margin-left: 50px;
+}
+.tercero{
+    margin-left: 110px;
+}
+
+/* CARDS*/
+.cards{
+    padding: 0 50px;
+    display: flex;
+    
+}
+.card{
+    
+    margin-right: 25px;
+}

@@ -1,0 +1,47 @@
+/*1024 en adelante*/
+.main{
+    display: flex;
+}
+
+/* main */
+.header{
+    text-align: start;
+    width: 55%;
+    padding-left: 0px;
+}
+.rated{
+    padding-top: 150px;
+    padding-bottom: 30px;
+    
+    width: 100%;
+}
+.review{
+    display: flex;
+    width: 85%;
+    padding-left: 30px;
+}
+.line{
+    
+    padding-left: 15px;
+    line-height: 38px;
+}
+
+
+/* seccion revie del rated por cada uno*/
+.segundo{
+    margin-left: 30px;
+}
+.tercero{
+    margin-left: 60px;
+}
+
+/* CARDS*/
+.cards{
+    
+    display: flex;
+    
+}
+.card{
+    
+    margin-right: 25px;
+}
